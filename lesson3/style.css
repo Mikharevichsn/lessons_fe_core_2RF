@@ -1,0 +1,109 @@
+/* 
+  универсальный
+  тег
+  класс
+  id
+  атрибут
+  потомок
+  ребенок
+*/
+
+/* * {
+  background-color: darkgrey;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: aqua;
+}
+
+p {
+  color: blue;
+}
+
+.my-class {
+  color: darkgreen;
+}
+
+h3 {
+  color: pink;
+}
+
+h6 {
+  color: beige;
+}
+
+#product-uniq {
+  color: coral;
+}
+
+[alt='Картинка кота'] {
+  width: 200px;
+}
+
+[href='#'] {
+  color: blueviolet;
+} */
+
+/* ----------- */
+
+/* .social-links a {
+  color: green;
+}
+
+.btn {
+  background-color: coral;
+  color: white;
+  border: 2px solid green;
+}
+
+.wrapper-btn .btn {
+  background-color: teal;
+}
+
+div button {
+  width: 500px;
+} */
+
+/* ----------- */
+
+/* .contacts > a {
+  color: aqua;
+}
+
+ul li {
+  background-color: white;
+}
+
+.parent > li {
+  background-color: brown;
+} */
+
+/* 
+hex 
+rgb 
+rgba  
+hsl
+*/
+
+/* body {
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+a:focus {
+  background-color: blueviolet;
+}
