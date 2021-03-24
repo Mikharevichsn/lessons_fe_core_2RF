@@ -1,0 +1,106 @@
+/* .box {
+  width: 500px;
+  height: 100px;
+  background-color: brown;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px; */
+
+/* margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px; */
+
+/* margin: 15px; */
+
+/* margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px; */
+
+/* margin: 10px 20px; */
+
+/* margin: 0 auto; */
+/* } */
+
+/* .box-brother {
+  width: 500px;
+  height: 100px;
+  background-color: chartreuse;
+} */
+
+/* ---------------- */
+
+/* .box {
+  width: 500px;
+  height: 150px;
+  background-color: pink;
+  text-align: center;
+  padding-bottom: 50px;
+} */
+
+/* .new-box {
+  width: 500px;
+  height: 150px;
+  background-color: green;
+  text-align: center;
+} */
+
+/* ---------------- */
+
+/* .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+} */
+
+/* ------- */
+
+/* li:first-child {
+  background-color: hotpink;
+}
+
+li:last-child {
+  background-color: green;
+}
+
+li:nth-child(3) {
+  background-color: lightblue;
+} */
+
+/* :nth-child(an + b) */
+
+/* tr:nth-child(odd) {
+  background-color: lightcoral;
+} */
+
+/* .list-item:nth-child(3) {
+  background-color: lightcoral;
+}
+
+.list-link:nth-child(2) {
+  background-color: lightgreen;
+} */
+
+/* .list-item:nth-last-child(1) {
+  background-color: lightcoral;
+} */
+
+/* ------  */
+
+/* li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+} */
+
+/* --------  */
+
+/* li:not(:last-child) {
+  margin-bottom: 10px;
+} */
+
+/* ---  */
