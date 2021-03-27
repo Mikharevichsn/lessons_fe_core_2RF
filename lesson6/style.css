@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 30px;
+}
+
+.wrapper {
+  width: 700px;
+  min-height: 400px;
+  margin: 0 auto;
+  outline: 1px solid #000;
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 52px;
+  border: 1px solid #000;
+}
+
+.first-box {
+  background-color: #145cf7;
+}
+
+.second-box {
+  margin-left: auto;
+  background-color: #bb2604;
+}
+
+.third-box {
+  background-color: #049d49;
+}
+
+.fourth-box {
+  background-color: #8a07dc;
+}
