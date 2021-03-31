@@ -1,0 +1,126 @@
+/* body {
+    height: 3000px;
+}
+
+.box {
+    padding: 20px;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 10px solid #000;
+
+    background-color: aqua;
+    background-image: url(./img/cat2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-origin: border-box;
+
+    background-attachment: fixed;
+} */
+
+
+/* -------  */
+
+
+/* p {
+    color: red;
+    margin: 0;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.text::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+}
+
+.text::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+} */
+
+/* ---------  */
+
+/* h2 {
+    font-family: Verdana;
+    text-align: center;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: skyblue;
+    margin: 0 auto;
+    margin-top: 5px;
+    transition: 1s;
+}
+
+h2:hover::after {
+    width: 500px;
+    height: 2px;
+} */
+
+/* --------  */
+
+/* .subtitle {
+    color: teal;
+    display: flex;
+    align-items: center;
+}
+
+.subtitle::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin-right: 10px;
+} */
+
+/* ---------  */
+/* .box {
+    width: 400px;
+    height: 100px;
+    background-color: wheat;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+} */
+
+/* p {
+    text-shadow: 1px 1px 2px violet;
+} */
+
+/* .astro-first path {
+    fill: yellow;
+}
+
+.astro-box {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #000;
+    background-image: url('./img/astronaut.svg');
+} */
+
+/* --------  */
+
+/* .box {
+    width: 500px;
+    height: 150px;
+    border: 2px solid #000;
+    background-image: linear-gradient(to right,red 30%, green 60%);
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(90deg,red 30%, green 60%);
+    background: radial-gradient(circle, rgba(23,9,255,0.40800070028011204) 0%, rgba(102,145,65,1) 24%, rgba(0,212,255,1) 100%);
+} */
