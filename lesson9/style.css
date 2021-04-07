@@ -1,0 +1,32 @@
+.wrapper {
+  width: 500px;
+  min-height: 1300px;
+  border: 2px solid #000;
+  margin: 50px auto;
+}
+
+.box {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.first {
+  background-color: #1cebeb;
+  width: 150px;
+  height: 150px;
+}
+
+.second {
+  background-color: #c20994;
+  width: 120px;
+  height: 120px;
+}
+
+.third {
+  background-color: #b4df19;
+  width: 90px;
+  height: 90px;
+}
