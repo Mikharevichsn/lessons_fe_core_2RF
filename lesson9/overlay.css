@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  width: 370px;
+  min-height: 350px;
+  border: 1px solid #000;
+}
+
+.picture {
+  position: relative;
+  height: 294px;
+  background-color: pink;
+}
+
+.picture img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+.text {
+  padding: 10px 5px;
+}
+
+.overlay {
+  transition: 1s;
+  opacity: 0;
+  pointer-events: none;
+  /* display: none; */
+  background-color: dodgerblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+  /* display: block; */
+}
