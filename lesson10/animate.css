@@ -1,0 +1,65 @@
+@keyframes rotate-box {
+  0% {
+    background-color: tomato;
+    /* transform: rotate(0deg); */
+    /* transform-origin: left top; */
+    /* transform: rotate(0deg) scale(1); */
+    /* opacity: 1; */
+  }
+
+  50% {
+    /* background-color: green; */
+    /* transform: rotate(180deg) scale(2); */
+    /* opacity: 1; */
+  }
+
+  100% {
+    background-color: green;
+    /* transform: rotate(360deg); */
+    /* transform-origin: left top; */
+    /* background-color: purple; */
+    /* transform: rotate(360deg) scale(2); */
+    /* opacity: 0; */
+  }
+}
+
+.wrapper {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+
+  animation-name: rotate-box;
+  animation-duration: 1500ms;
+
+  /* animation-timing-function: linear; */
+
+  /* animation-timing-function: cubic-bezier(0.17, 0.67, 0.5, -0.72); */
+  /* animation-timing-function: cubic-bezier(0.17, 0.67, 0.81, 0.17); */
+  /* animation-iteration-count: 2; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: normal; */
+  /* animation-direction: reverse; */
+
+  /* animation-iteration-count: 2;
+    animation-direction: alternate; */
+
+  /* animation-delay: 1000ms; */
+  /* animation-fill-mode: forwards; */
+  /* animation-fill-mode: backwards; */
+
+  /* animation-iteration-count: infinite; */
+}
+
+.box:hover {
+  animation-play-state: paused;
+}

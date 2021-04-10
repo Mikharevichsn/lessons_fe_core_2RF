@@ -1,0 +1,32 @@
+.wrapper {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  /* transform: translate(100px, 0); */
+  transition-duration: 1500ms;
+
+  /* transition-property: all; */
+  /* transition-property: background-color; */
+  /* transition-property: transform; */
+  /* transition-timing-function: linear; */
+  /* transition-timing-function: cubic-bezier(0.17, 0.67, 0.5, -0.72); */
+  /* transition-timing-function: cubic-bezier(0.06, 1.12, 0.78, -0.64); */
+  /* transition-delay: 2000ms; */
+}
+
+.box:hover {
+  /* transition-duration: 1500ms; */
+  background-color: green;
+  transform: rotate(360deg);
+  opacity: 0.5;
+}
