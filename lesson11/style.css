@@ -1,0 +1,69 @@
+.form-wrapper {
+  border: 2px solid green;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.field {
+  display: block;
+}
+
+form .field:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+form > label:first-child {
+  background-color: brown;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.checkbox {
+  user-select: none;
+}
+
+fieldset {
+  display: flex;
+}
+
+.comment-textarea {
+  width: 350px;
+  height: 50px;
+  resize: vertical;
+}
+
+.field-comment {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+input:required + label {
+  position: relative;
+  top: -40px;
+}
+
+input:required + label::after {
+  content: '*';
+  background-color: aqua;
+}
+
+.box {
+  padding: 10px;
+  background-color: brown;
+}
+
+.child {
+  padding: 20px;
+  margin: 5px;
+  background-color: cadetblue;
+}
+
+.child:first-child {
+  background-color: coral;
+}
+
+.child:last-child {
+  background-color: greenyellow;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <h3>Оставьте заявку и мы вам позвоним:</h3>
+      <form class="my-form" action="" method="GET">
+        <input
+          type="text"
+          name="firt-name"
+          value="Пётр"
+          id="user-name"
+          required
+          placeholder="Введите имя"
+        />
+        <label class="field" for="user-name">Имя:</label>
+
+        <label class="field">
+          Фамилия:
+          <input type="text" name="last-name" value="Иванов" required />
+        </label>
+
+        <label class="field">
+          Возраст:
+          <input
+            type="number"
+            value="22"
+            name="age"
+            min="18"
+            max="99"
+            required
+          />
+        </label>
+        <label class="field">
+          Дата:
+          <input type="date" name="when" />
+        </label>
+        <label class="field">
+          Телефон:
+          <input type="tel" name="phone" pattern="[0-9]{11}" disabled />
+        </label>
+        <label class="field checkbox">
+          <input type="checkbox" name="subscription-agree" checked />
+          Согласен получать рассылку
+        </label>
+
+        <p><b>Хобби</b></p>
+        <div role="group">
+          <label class="field checkbox">
+            <input type="checkbox" name="hobby" value="sky" />
+            Лыжи
+          </label>
+          <label class="field checkbox">
+            <input type="checkbox" name="hobby" value="code" />
+            Кодить
+          </label>
+          <label class="field checkbox">
+            <input type="checkbox" name="hobby" value="dancing" />
+            Танцы
+          </label>
+        </div>
+
+        <fieldset>
+          <label class="field">
+            <input type="radio" name="part-of-day" value="morning" />
+            Утро
+          </label>
+          <label class="field">
+            <input type="radio" name="part-of-day" value="day" />
+            День
+          </label>
+          <label class="field">
+            <input type="radio" name="part-of-day" value="evening" />
+            Вечер
+          </label>
+        </fieldset>
+
+        <label class="field field-comment">
+          <textarea class="comment-textarea" name="comment"></textarea>
+        </label>
+
+        <select name="color" id="">
+          <option value="0" disabled selected>Выбери цвет:</option>
+          <option value="green">Вариант 1</option>
+          <option value="blue">Вариант 2</option>
+          <option value="red">Красный</option>
+          <option value="yellow">Вариант 4</option>
+          <option value="purple">Вариант 5</option>
+        </select>
+
+        <div class="buttons">
+          <button type="button">Рассчитать стоимость</button>
+          <button type="submit">Отправить</button>
+          <button type="reset">Очистить</button>
+        </div>
+      </form>
+
+      <div class="box">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+      </div>
+    </div>
+  </body>
+</html>
