@@ -1,3 +1,19 @@
 {
-    "zenMode.silentNotifications": false
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/lesson13/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/lesson13/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.generateMap": true,
+  "liveServer.settings.port": 5501,
+  "liveSassCompile.settings.autoprefix": null,
+  "zenMode.silentNotifications": false
 }

@@ -1,0 +1,24 @@
+$box-height: 200px;
+
+@import './header';
+
+body {
+  background-color: aquamarine;
+
+  .box {
+    width: 100px;
+    height: $box-height;
+    border: 1px solid red;
+    background-color: burlywood;
+
+    .child {
+      width: 50px;
+      height: 50px;
+      background-color: chartreuse;
+    }
+
+    a {
+      color: crimson;
+    }
+  }
+}
