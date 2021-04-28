@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container-adaptive {
+  padding: 0 10px;
+  min-height: 100px;
+}
+
+.container-adaptive .cards {
+  background-color: yellow;
+}
+
+.container-adaptive .card {
+  min-height: 100px;
+  background-color: aquamarine;
+}
+
+.container-adaptive .card:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
+  .container-adaptive .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .container-adaptive .card {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-adaptive {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .container-adaptive .card {
+    width: 270px;
+  }
+}
+
+.container-responsive {
+  padding: 0 10px;
+  min-height: 100px;
+}
+
+.container-responsive .cards {
+  background-color: orange;
+}
+
+.container-responsive .card {
+  min-height: 100px;
+  background-color: grey;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .container-responsive .cards {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-responsive .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .container-responsive .card {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-responsive {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .container-responsive .card {
+    width: 24%;
+  }
+}
