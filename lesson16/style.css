@@ -1,0 +1,23 @@
+.box {
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  background-image: url('./img/Img.jpg');
+  background-size: cover;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .box {
+    background-image: url('./img/Img@2x.jpg');
+  }
+}
+
+.card {
+  width: 270px;
+  height: 260px;
+  margin: 20px auto;
+  outline: 1px solid #000;
+}

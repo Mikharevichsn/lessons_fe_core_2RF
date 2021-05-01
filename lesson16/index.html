@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div class="box"></div> -->
+
+    <!-- <div class="card">
+      <img srcset="./img/card.jpg 1x, ./img/card@2x.jpg 2x" />
+    </div> -->
+
+    <div class="example">
+      <picture>
+        <source
+          type="image/jpeg"
+          srcset="./img/example.jpeg 1x, ./img/example@2x.jpeg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          type="image/jpeg"
+          srcset="./img/mobile.jpeg 1x, ./img/mobile.jpeg 2x"
+          media="(min-width: 320px)"
+        />
+
+        <img src="./img/mobile.jpeg" />
+      </picture>
+    </div>
+  </body>
+</html>
